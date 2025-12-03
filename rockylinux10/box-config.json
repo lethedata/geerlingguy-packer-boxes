@@ -70,11 +70,6 @@
       {
         "output": "builds/{{.Provider}}-rockylinux10.box",
         "type": "vagrant"
-      },
-      {
-        "type": "vagrant-cloud",
-        "box_tag": "geerlingguy/rockylinux10",
-        "version": "{{user `version`}}"
       }
     ]
   ]
