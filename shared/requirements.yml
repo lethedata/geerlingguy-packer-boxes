@@ -1,5 +1,6 @@
 ---
 roles:
-  - geerlingguy.packer_rhel
+  - name: geerlingguy-packer_rhel
+    src: https://github.com/lethedata/geerlingguy-ansible-role-packer_rhel
   - geerlingguy.packer-debian
   - geerlingguy.nfs
